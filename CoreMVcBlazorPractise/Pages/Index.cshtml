@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <div>
+            <button onclick="send()"> send</button>
+            <h4>Ans:</h4>
+            <p id="ans"></p>
+        </div>
+        <script>
+            var testWebSocket = new WebSocket("ws://localhost:57142/ws");
+
+            testWebSocket.onmessage = function (e) {
+                document.getElementById("ans").innerHTML += "\n Receved : " + e.data;
+            }
+
+
+            function send() {
+                testWebSocket.send("gojob");
+            }
+        </script>
+
+
+
+    </div>
