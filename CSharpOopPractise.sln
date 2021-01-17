@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOopPractise", "CSharpOoopPractise\CSharpOopPractise.csproj", "{8BEC8A80-4BD9-4AD5-A828-C5FF66902B5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApiPractise", "APIPractise\CoreApiPractise.csproj", "{85C820CF-5163-454E-BFE9-1C26CF8BDF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApiPractise", "APIPractise\CoreApiPractise.csproj", "{85C820CF-5163-454E-BFE9-1C26CF8BDF02}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreMvcPractise", "CoreMVcBlazorPractise\CoreMvcPractise.csproj", "{8068C1CA-10AB-478B-8BB4-F5AA628AEAEA}"
 EndProject

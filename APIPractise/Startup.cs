@@ -1,3 +1,4 @@
+using EasyCaching.Core.Configurations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,16 @@ namespace APIPractise
         {
 
             services.AddControllers();
+
+            services.AddEasyCaching(options =>
+            {
+                options.UseRedis(configure: redisConfig =>
+               {
+                   redisConfig.DBConfig.Endpoints.Add(new ServerEndPoint(host: "localhost", port: 6379));
+                   redisConfig.DBConfig.AllowAdmin = true;
+               }, name: "redis1");
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIPractise", Version = "v1" });
