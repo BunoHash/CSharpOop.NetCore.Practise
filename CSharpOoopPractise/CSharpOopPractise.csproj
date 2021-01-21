@@ -59,8 +59,10 @@
     <Compile Include="CSharp-OOP\Immutable.cs" />
     <Compile Include="CSharp-OOP\Reflection.cs" />
     <Compile Include="CSharp-OOP\yield.cs" />
+    <Compile Include="Models\BaseClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="book-practise\ValueAndRefType.cs" />
     <EmbeddedResource Include="CSharp-OOP\AsyncAwait-Thead.resx">
       <DependentUpon>AsyncAwait-Thead.cs</DependentUpon>
     </EmbeddedResource>

@@ -1,8 +1,6 @@
-﻿using CSharp.Oop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Windows.Forms;
 
 namespace CSharpOopPractise
@@ -19,9 +17,20 @@ namespace CSharpOopPractise
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new AsyncAwaitThread());
 
-            var reflection = new Reflection();
-            reflection.UseReflection();
-            Console.ReadKey();
+            // var reflection = new Reflection();
+            // reflection.UseReflection();
+            // Console.ReadKey();
+
+
+            ValueAndRefType.RunTypePractise();
+
+           
+
+
+
+            
         }
+
+        
     }
 }
