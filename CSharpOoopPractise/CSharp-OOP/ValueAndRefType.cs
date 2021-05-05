@@ -5,9 +5,6 @@ using WindowsForms_async_await.Models;
 
 namespace CSharpOopPractise
 {
-
-   
-
     public static class ValueAndRefType
     {
         public static void RunTypePractise()
