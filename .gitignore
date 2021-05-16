@@ -6,3 +6,8 @@ CSharpOoopPractise/obj/*
 CSharpOoopPractise/bin/*
 APIPractise/bin/*
 .vs/*
+packages/xunit.extensibility.core.2.4.1/*
+packages/xunit.abstractions.2.0.3/*
+packages/xunit.assert.2.4.1/*
+CoreMVcBlazorPractise/bin/*
+CoreMVcBlazorPractise/bin/*
