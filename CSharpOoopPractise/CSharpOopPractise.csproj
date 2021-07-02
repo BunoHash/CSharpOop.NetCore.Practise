@@ -64,6 +64,7 @@
     <Compile Include="book-practise\chap 04\UnitTest.cs" />
     <Compile Include="book-practise\chap 05\ValueRefOut.cs" />
     <Compile Include="book-practise\chap 06\Delegates.cs" />
+    <Compile Include="book-practise\chap 06\EnumPractise.cs" />
     <Compile Include="CSharp-OOP\AsyncAwait-Thead.cs">
       <SubType>Form</SubType>
     </Compile>

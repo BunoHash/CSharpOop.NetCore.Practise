@@ -50,7 +50,7 @@ namespace WindowsForms_async_await.misc
             }
 
 
-            for (int i = 5; i <= input / 2 && factor * i < =input; i += 6)
+            for (int i = 5; i <= input / 2 && factor * i <=input; i += 6)
             {
                 int num = i;
                 //factor = i;
@@ -67,7 +67,7 @@ namespace WindowsForms_async_await.misc
             }
 
 
-            return 0; OrderBy(key => key.Key)
+            return 0; //OrderBy(key => key.Key)
 
         }
     }

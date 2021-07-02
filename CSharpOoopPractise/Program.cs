@@ -1,13 +1,6 @@
 ﻿
 using System;
-using System.Diagnostics;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.Windows.Forms;
-using WindowsForms_async_await.book_practise.chap_03;
-using WindowsForms_async_await.book_practise.chap_05;
-using WindowsForms_async_await.book_practise.chap_06;
-using WindowsForms_async_await.misc;
 
 namespace CSharpOopPractise
 {
@@ -42,9 +35,11 @@ namespace CSharpOopPractise
             //Delegates.Process();
 
 
-            var sample = new int[20];
+            //var sample = new int[20];
 
-            prob.process(sample);
+            //prob.process(sample);
+
+            EnumPractise.Process();
             
 
            
