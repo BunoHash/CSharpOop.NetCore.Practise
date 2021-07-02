@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using WindowsForms_async_await.book_practise.chap_03;
 using WindowsForms_async_await.book_practise.chap_05;
 using WindowsForms_async_await.book_practise.chap_06;
+using WindowsForms_async_await.misc;
 
 namespace CSharpOopPractise
 {
@@ -38,7 +39,12 @@ namespace CSharpOopPractise
             // chap 06:
             //delegate
 
-            Delegates.Process();
+            //Delegates.Process();
+
+
+            var sample = new int[20];
+
+            prob.process(sample);
             
 
            

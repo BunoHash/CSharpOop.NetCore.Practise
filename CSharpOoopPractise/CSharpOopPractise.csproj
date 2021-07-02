@@ -74,6 +74,7 @@
     <Compile Include="CSharp-OOP\Immutable.cs" />
     <Compile Include="CSharp-OOP\Reflection.cs" />
     <Compile Include="CSharp-OOP\yield.cs" />
+    <Compile Include="misc\prob.cs" />
     <Compile Include="Models\BaseClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
