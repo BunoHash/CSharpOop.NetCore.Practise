@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Windows.Forms;
+using WindowsForms_async_await.book_practise.chap_06;
 
 namespace CSharpOopPractise
 {
@@ -39,7 +40,8 @@ namespace CSharpOopPractise
 
             //prob.process(sample);
 
-            EnumPractise.Process();
+            //EnumPractise.Process();
+            GenericPractise.Process();
             
 
            
